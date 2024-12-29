@@ -1,0 +1,21 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        String s = "Muneendra is a good boy";
+        String s1[]=s.split(" ");
+        String s2="";
+        for(String str : s1)
+        {
+            int n=str.length();
+            for(int i=n-1;i>=0;i-- )
+            {
+                s2+=str.charAt(i);
+            }
+            s2+=" ";
+        }
+        System.out.println(s2);
+       
+    }
+}
