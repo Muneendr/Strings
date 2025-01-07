@@ -1,0 +1,9 @@
+
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+      String str="Hello World";
+      String str1=str.replace(" ","");
+      System.out.println(str1);
+    }
+}
